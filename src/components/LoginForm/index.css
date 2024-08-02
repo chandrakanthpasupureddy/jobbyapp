@@ -1,0 +1,59 @@
+.bg-login {
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bg-card {
+  background-color: #272727;
+  height: 50%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 20px;
+}
+.logo {
+  height: 50px;
+  width: 120px;
+  margin-bottom: 25px;
+}
+.form-ele {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.userLabel {
+  color: white;
+  margin-bottom: 10px;
+}
+.inputEle {
+  outline: none;
+  margin-bottom: 10px;
+  width: 100%;
+  background-color: transparent;
+  padding: 5px;
+  border: 1px solid #cbd5e1;
+  color: white;
+}
+.butn {
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 8px;
+  width: 75%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.error-msg {
+  color: red;
+  font-size: 8px;
+  margin-top: 0px;
+}
